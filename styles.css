@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  block-size: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+main {
+  max-inline-size: calc(320px + 10px);
+
+  border-radius: 20px;
+  border: 5px solid rgba(209, 20, 23, 0.50);
+  background-color:#fff;
+}
+
+div {
+  padding-inline: 16px;
+  padding-block: 16px 40px;
+  
+  /* card-shadow */
+  box-shadow: 0 25px 25px 0 rgba(0, 0, 0, 0.05);
+}
+
+img {
+  display: block;
+  inline-size: 100%;
+  block-size: auto;
+  aspect-ratio: 1/1;
+  max-inline-size: 288px;
+  border-radius: 10px;
+  background-color: #2C7DFA;
+
+  margin-block-end: 24px;
+}
+
+h1 {
+  max-inline-size: 256px;
+  margin-inline: auto;
+  
+  color: #1F314F;
+  text-align: center;
+  font-feature-settings: 'liga' off, 'clig' off;
+  
+  /* text-preset-1 */
+  font-family: Outfit, sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 26.4px */
+
+  margin-block-end: 16px;
+}
+
+p {
+  max-inline-size: 256px;
+  margin-inline: auto;
+  color: #68778D;
+  text-align: center;
+  font-feature-settings: 'liga' off, 'clig' off;
+  
+  /* text-preset-2 */
+  font-family: Outfit, sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 21px */
+  letter-spacing: 0.2px;
+}
