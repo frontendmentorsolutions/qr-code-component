@@ -15,8 +15,7 @@ body {
 div {
   max-inline-size: 320px;
 
-  padding-inline: 16px;
-  padding-block: 16px 40px;
+  padding: 16px;
 
   border-radius: 20px;
   background-color:#fff;
@@ -62,6 +61,7 @@ p {
   color: #68778D;
   text-align: center;
   font-feature-settings: 'liga' off, 'clig' off;
+  margin-block-end: 24px;
 
   /* text-preset-2 */
   font-family: Outfit, sans-serif;
